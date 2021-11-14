@@ -13,6 +13,8 @@
 		A4C6190B273BC79400EBF57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C61909273BC79400EBF57A /* Main.storyboard */; };
 		A4C6190D273BC79600EBF57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C6190C273BC79600EBF57A /* Assets.xcassets */; };
 		A4C61910273BC79600EBF57A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C6190E273BC79600EBF57A /* LaunchScreen.storyboard */; };
+		E72569492740EF8900B3B8F2 /* Sakana.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E72569482740EF8900B3B8F2 /* Sakana.storyboard */; };
+		E725694B2740EF9600B3B8F2 /* SakanaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E725694A2740EF9600B3B8F2 /* SakanaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A4C6190C273BC79600EBF57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C6190F273BC79600EBF57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C61911273BC79600EBF57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E72569482740EF8900B3B8F2 /* Sakana.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sakana.storyboard; sourceTree = "<group>"; };
+		E725694A2740EF9600B3B8F2 /* SakanaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakanaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				A4C61909273BC79400EBF57A /* Main.storyboard */,
+				E72569482740EF8900B3B8F2 /* Sakana.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -79,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A4C61907273BC79400EBF57A /* ViewController.swift */,
+				E725694A2740EF9600B3B8F2 /* SakanaController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -144,6 +150,7 @@
 				A4C61910273BC79600EBF57A /* LaunchScreen.storyboard in Resources */,
 				A4C6190D273BC79600EBF57A /* Assets.xcassets in Resources */,
 				A4C6190B273BC79400EBF57A /* Main.storyboard in Resources */,
+				E72569492740EF8900B3B8F2 /* Sakana.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E725694B2740EF9600B3B8F2 /* SakanaController.swift in Sources */,
 				A4C61908273BC79400EBF57A /* ViewController.swift in Sources */,
 				A4C61904273BC79400EBF57A /* AppDelegate.swift in Sources */,
 				A4C61906273BC79400EBF57A /* SceneDelegate.swift in Sources */,

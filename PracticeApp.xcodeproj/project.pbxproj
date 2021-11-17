@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21B9D1022745497B0075F4DD /* YokoyamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9D1012745497B0075F4DD /* YokoyamaViewController.swift */; };
+		21B9D104274549880075F4DD /* Yokoyama.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B9D103274549880075F4DD /* Yokoyama.storyboard */; };
 		A4C61904273BC79400EBF57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C61903273BC79400EBF57A /* AppDelegate.swift */; };
 		A4C61906273BC79400EBF57A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C61905273BC79400EBF57A /* SceneDelegate.swift */; };
 		A4C61908273BC79400EBF57A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C61907273BC79400EBF57A /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21B9D1012745497B0075F4DD /* YokoyamaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YokoyamaViewController.swift; sourceTree = "<group>"; };
+		21B9D103274549880075F4DD /* Yokoyama.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Yokoyama.storyboard; sourceTree = "<group>"; };
 		A4C61900273BC79400EBF57A /* PracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C61903273BC79400EBF57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C61905273BC79400EBF57A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 			children = (
 				A4C61909273BC79400EBF57A /* Main.storyboard */,
 				E72569482740EF8900B3B8F2 /* Sakana.storyboard */,
+				21B9D103274549880075F4DD /* Yokoyama.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				A4C61907273BC79400EBF57A /* ViewController.swift */,
 				E725694A2740EF9600B3B8F2 /* SakanaController.swift */,
+				21B9D1012745497B0075F4DD /* YokoyamaViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -147,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B9D104274549880075F4DD /* Yokoyama.storyboard in Resources */,
 				A4C61910273BC79600EBF57A /* LaunchScreen.storyboard in Resources */,
 				A4C6190D273BC79600EBF57A /* Assets.xcassets in Resources */,
 				A4C6190B273BC79400EBF57A /* Main.storyboard in Resources */,
@@ -161,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B9D1022745497B0075F4DD /* YokoyamaViewController.swift in Sources */,
 				E725694B2740EF9600B3B8F2 /* SakanaController.swift in Sources */,
 				A4C61908273BC79400EBF57A /* ViewController.swift in Sources */,
 				A4C61904273BC79400EBF57A /* AppDelegate.swift in Sources */,
